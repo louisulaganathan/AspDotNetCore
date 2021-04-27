@@ -26,8 +26,8 @@ app.UseHsts()    //Https Strict Transport Security protocol. Not recommended for
 
 **Referenced From MS website**
 
-![middleware-pipeline](https://user-images.githubusercontent.com/74425320/116320802-868c6d80-a77e-11eb-8ab1-9e02fbfcdf1b.Png)
+<img width="898" alt="Screen Shot 2021-04-27 at 5 10 53 PM" src="https://user-images.githubusercontent.com/74425320/116320889-b176c180-a77e-11eb-888a-e6ab8e08f92d.png">
 
-![mvc-endpoint](https://user-images.githubusercontent.com/74425320/116320807-89875e00-a77e-11eb-999c-b308285f08ae.png)
+<img width="1440" alt="Screen Shot 2021-04-27 at 5 10 41 PM" src="https://user-images.githubusercontent.com/74425320/116320898-b50a4880-a77e-11eb-96ce-9e34607df365.png">
 
 
