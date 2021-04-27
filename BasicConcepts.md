@@ -18,7 +18,7 @@ app.UseHsts()    //Https Strict Transport Security protocol. Not recommended for
 
 ###.NET Core Middleware Pipeline ###
 
-<img width="1440" alt="Screen Shot 2021-04-27 at 5 10 41 PM" src="https://user-images.githubusercontent.com/74425320/116319200-b71ed800-a77b-11eb-9344-0672b7cb8a86.png">
+<img width="898" alt="Screen Shot 2021-04-27 at 5 10 53 PM" src="https://user-images.githubusercontent.com/74425320/116320889-b176c180-a77e-11eb-888a-e6ab8e08f92d.png">
 
 ![Blog-Diagram-Middleware-Pipeline](https://user-images.githubusercontent.com/74425320/116319693-986d1100-a77c-11eb-8b7c-3b34ded31584.png)
 
@@ -26,8 +26,8 @@ app.UseHsts()    //Https Strict Transport Security protocol. Not recommended for
 
 **Referenced From MS website**
 
-<img width="898" alt="Screen Shot 2021-04-27 at 5 10 53 PM" src="https://user-images.githubusercontent.com/74425320/116320889-b176c180-a77e-11eb-888a-e6ab8e08f92d.png">
+<img width="724" alt="Screen Shot 2021-04-27 at 5 34 57 PM" src="https://user-images.githubusercontent.com/74425320/116321036-f864b700-a77e-11eb-8d43-a53c42359c1f.png">
 
-<img width="1440" alt="Screen Shot 2021-04-27 at 5 10 41 PM" src="https://user-images.githubusercontent.com/74425320/116320898-b50a4880-a77e-11eb-96ce-9e34607df365.png">
+<img width="722" alt="Screen Shot 2021-04-27 at 5 35 11 PM" src="https://user-images.githubusercontent.com/74425320/116321044-fbf83e00-a77e-11eb-821f-6751be45caca.png">
 
 
