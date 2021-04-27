@@ -10,9 +10,9 @@ ConfigureHostBuilder()
   .ConfigureWebHostDefaults(webBuilder=>webBuilder.UseStartup<Startup>();   //Injecting StartupClass dependency
 }
 
-ConfigureService(IServiceCollections services)  //Used to register all the dependent services[class, Interface] using 3 scopes. AddTransient(), AddSingleton(),AddScoped()
+ConfigureService(IServiceCollections services)  //Used to register all the dependent services[class, Interface] using 3 scopes. AddTransient(), AddSingleton(),AddScoped().  This method is called by the runtime and used to add services to the container.
 
-Configure(IAppBuilder app, IWebHostEnvironment env)   //Used to configure all middlewares, Endpoints. 
+Configure(IAppBuilder app, IWebHostEnvironment env)   //Used to configure all middlewares, Endpoints. This method is called by the runtime and used to configure the HTTP request pipeline.
 
 app.UseHsts()    //Https Strict Transport Security protocol. Not recommended for dev env since we want to reflect the code changes immediately after build.
 
