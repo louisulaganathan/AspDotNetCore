@@ -30,4 +30,61 @@ app.UseHsts()    //Https Strict Transport Security protocol. Not recommended for
 
 <img width="722" alt="Screen Shot 2021-04-27 at 5 35 11 PM" src="https://user-images.githubusercontent.com/74425320/116321044-fbf83e00-a77e-11eb-821f-6751be45caca.png">
 
+**Action Results:**
 
+public IActionResult Index()
+{
+    return Created("url", data c# object);       //201
+    return Ok() //200
+    return NoContent().  //204
+    return NotFound();     //404
+    return BadRequest();    //400
+    return Unauthorized();  //401
+    
+    return CreatedAtActionResult(new(){});
+    return OkObjectResult(new(){});
+    return NotFoundObjectResult(new(){});
+    return BadRequestObjectResult(new(){});
+    
+}
+
+**RedirectResults**. Need to permanant 301 to false
+
+public IActionResult Index()
+{
+    return Redirect("google.com");
+    return LocalRedirect("Controller/Action");
+    return RedirectAction("Action","Controller");
+}
+
+**FileResults**
+
+public IActionResult Index()
+{
+    return File("FilePath", "applicaiton/pdf");
+    return FileContentResult("ByteContent", "application/pdf");
+    return PhysicalFileResult("PhysicalFilePath", "applicaiton/pdf");
+    return VirtualFileResult("VirtualFilePath", "applicaiton/pdf");
+}
+
+**ContentResult**
+public IActionResult Index()
+{
+    return Content("Hello World");
+}
+
+**JsonResult**
+
+public IActionResult Index()
+{
+    return Json(c# object);
+}
+
+**ViewResult**
+
+public IActionResult Index()
+{
+  
+    return View();
+    return PartialView();
+}
