@@ -30,6 +30,9 @@ app.UseHsts()    //Https Strict Transport Security protocol. Not recommended for
 
 <img width="722" alt="Screen Shot 2021-04-27 at 5 35 11 PM" src="https://user-images.githubusercontent.com/74425320/116321044-fbf83e00-a77e-11eb-821f-6751be45caca.png">
 
+![image](https://github.com/louisulaganathan/AspDotNetCore/assets/74425320/0480733b-d70e-46dc-ada2-13220c27e87b)
+
+
 **Action Results:**
 
 public IActionResult Index()
